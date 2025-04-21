@@ -427,7 +427,7 @@ lower h2{
     align-items: center;
     justify-content: center;
     position: fixed;
-    top: 14%;
+    top: 15%;
     right: -95%;
     transition: 1s;
     border-radius: 2rem;
