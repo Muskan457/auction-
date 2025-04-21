@@ -47,7 +47,7 @@ html{
 .header{
     width: 100%;
     height: auto;
-    padding: 1rem;
+    padding: 1.5rem;
     z-index: 1000000;
     background: blue;
     color: white;
