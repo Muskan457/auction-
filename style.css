@@ -22,7 +22,7 @@
 
 
 html{
-    font-size: 62.5%;
+    font-size: 76.5%;
     scroll-behavior: smooth;
 }
 
@@ -49,7 +49,7 @@ html{
     height: auto;
     padding: 1rem;
     z-index: 1000000;
-    background: black;
+    background: blue;
     color: white;
     display: flex;
     align-items: center;
@@ -92,7 +92,7 @@ span{
 .header a{
     color: white;
     font-size: 1.8rem;
-    padding-left: 2rem;
+    padding-left: 1.9rem;
     font-family: "Oleo Script Swash Caps", serif;
 }
 
@@ -100,7 +100,7 @@ span{
 .maintext{
     width: 95%;
     height: 90vh;
-    background-color: transparent;
+    background-color: black;
     position: absolute;
     top: 8%;
     margin: 1rem auto;
