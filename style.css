@@ -387,7 +387,7 @@ lower h2{
     justify-content: space-between;
     flex-direction: column;
     text-align: center;
-    font-size: 2rem;
+    font-size: 4rem;
     margin: 2rem;
     padding: 1rem;
 }
