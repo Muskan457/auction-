@@ -419,7 +419,7 @@ lower h2{
     height: 15rem;
     background: black;
     color: var(--pink);
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 4rem;
     z-index: 100000;
     border: 2px solid white;
