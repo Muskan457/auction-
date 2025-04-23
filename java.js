@@ -2,7 +2,7 @@ let search=document.querySelector('.searchbar');
 
 document.querySelector('#search').onclick = () => {
     search.classList.toggle('active');
-    favorite.classList.remove('active');
+    favorites.classList.remove('active');
     login.classList.remove('active');
 }
 
