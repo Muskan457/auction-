@@ -9,7 +9,7 @@ document.querySelector('#search').onclick = () => {
 
 let favorite=document.querySelector('.favorites');
 
-document.querySelector('#favoriteS').onclick = () => {
+document.querySelector('#favorites').onclick = () => {
     favorites.classList.toggle('active');
     search.classList.remove('active');
     login.classList.remove('active');
