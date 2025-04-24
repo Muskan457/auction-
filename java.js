@@ -21,7 +21,7 @@ let login=document.querySelector('.login');
 document.querySelector('#login').onclick = () => {
     login.classList.toggle('active');
     search.classList.remove('active');
-    favorite.classList.remove('active');
+    favorites.classList.remove('active');
 }
 
 
