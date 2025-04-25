@@ -285,11 +285,14 @@ a:hover{
 }
 
 .items:hover{
-    cursor: pointer;
-    background: black;
-    width: 33rem;
-    height: 50rem;
-    border: 2px solid white;
+   cursor: pointer;
+   background-color: #111; /* Slightly lighter than black */
+   width: 30rem;
+   height: 48rem;
+   border: 3px solid #f0f0f0; /* Softer white for a slightly muted border */
+   border-radius: 8px; /* Added rounded corners for a modern touch */
+   box-shadow: 0 4px 10px rgba(0
+
 }
 
 .container3{
