@@ -60,12 +60,17 @@
            <div class="favorites">
             <h1>You have not added anything yet.</h1>
            </div>
-           <div class="login">
-            <input type="text" id="username" placeholder="username">
-            <input type="text" id="password" placeholder="password">
-            <a href="#">Forgot Password</a>
-            <button>Login</button>
-           </div>
+           <div class="login-form">
+      <form>
+        <input type="text" id="username" name="username" placeholder="Username" required>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <div class="form-options">
+          <a href="#" class="forgot-password">Forgot Password?</a>
+        </div>
+            <button type="submit" class="login-btn">Login</button>
+      </form>
+    </div>
+
     </div>
 </div>
     <section id="container2"></section>
