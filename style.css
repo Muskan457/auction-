@@ -508,17 +508,17 @@ lower h2{
 }
 
 
-.footer h1{
-    background: black;
-    background-color: black;
-    background: #E79EA7;
-    background: radial-gradient(
-        circle farthest-corner at center center,
-        #E79EA7 0%,
-        #90C6B9 100%
+footer h1 {
+    background: #333;
+    background-color: #333;
+    background: linear-gradient(
+        135deg, 
+        #F0A6CA 0%, 
+        #6B8C7D 100%
     );
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color:
+
 }
 
 .input{
