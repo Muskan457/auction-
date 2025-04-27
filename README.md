@@ -1,9 +1,15 @@
 Project Name - Auction Page
+
 Team Name - Codiva
+
 Team members - Navdeep Kaur (2410990470)
+
                Muskan Puri (2410990466)
+  
                Neha (2410990472)
+               
                Maninder Kaur (2410990437) 
+               
 AUCTION - PAGE 
 An auction page is a platform that allows users to buy and sell items through bidding. It provides a dynamic environment where buyers compete by placing bids, and the item is sold to the highest bidder when the auction ends. Key elements of an auction page include features like real-time updates, secure transactions, and detailed item descriptions to ensure a seamless experience for both buyers and sellers.
 
