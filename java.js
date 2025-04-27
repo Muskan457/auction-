@@ -1,9 +1,11 @@
 let search=document.querySelector('.searchbar');
 
-document.querySelector('#search').onclick = () => {
+document.querySelector('#search').addEventListener('click', () => {
     search.classList.toggle('active');
-    favorites.classList.remove('active');
-    login.classList.remove('active');
+    favorites.classList.toggle('hidden');
+    login.classList.remove('visible');
+});
+
 }
 
 
