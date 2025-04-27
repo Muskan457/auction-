@@ -20,10 +20,12 @@ document.querySelector('#favorites').onclick = () => {
 
 let login=document.querySelector('.login');
 
-document.querySelector('#login').onclick = () => {
-    login.classList.toggle('active');
+document.querySelector('#login').addEventListener('click', () => {
+    login.classList.toggle('show');
     search.classList.remove('active');
-    favorites.classList.remove('active');
+    favorites.classList.add('inactive');
+});
+
 }
 
 
