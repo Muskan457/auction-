@@ -184,12 +184,15 @@ button:hover{
 }
 
 
-a:hover{
-    word-spacing: 0.5rem;
-    font-size: 2.2rem;
+a:hover {
+    word-spacing: 0.3rem;
+    font-size: 2rem;
     cursor: pointer;
-    padding-left: 1rem;
+    padding-left: 0.8rem;
+    color: #00f;
+    transition: all 0.3s ease;
 }
+
 
 .container2{
     width: 100%;
