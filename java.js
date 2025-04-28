@@ -9,13 +9,18 @@ document.querySelector('#search').addEventListener('click', () => {
 }
 
 
-let favorite=document.querySelector('.favorites');
+let favorite = document.querySelector('.favorites');
+let search = document.querySelector('.search'); // Assuming this element exists
+let login = document.querySelector('.login'); // Assuming this element exists
 
 document.querySelector('#favorites').onclick = () => {
-    favorites.classList.toggle('active');
+    favorite.classList.toggle('active');
     search.classList.remove('active');
     login.classList.remove('active');
+    // Adding a console log to confirm the action
+    console.log('Favorites toggled');
 }
+
 
 
 let loginButton = document.querySelector('.login-button');
