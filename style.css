@@ -114,17 +114,17 @@ span{
 
 
 
-.leftside{
-    width: 46%;
-    height: 100%;
-    background: transparent;
+.leftPanel {
+    width: 50%;
+    height: auto;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-    color: white;
-    padding: 1rem;
-    font-family: 'Pacifico', cursive;
+    align-items: flex-start; /* Align items to the top */
+    flex-direction: row; /* Changed to row for horizontal layout */
+    justify-content: center; /* Center items evenly */
+    color: #f0f0f0; /* Updated to a lighter white shade */
+    padding: 2rem; /* Increased padding for more spacing */
+    font-family: 'Roboto', sans-serif; /* Switched to a different font */
 }
 
 .first{
