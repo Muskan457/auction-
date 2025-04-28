@@ -5,7 +5,7 @@ Team Name - Codiva
 Team members -
 Navdeep Kaur (2410990470)
 
-Muskan Puri (2410990466)
+Muskan (2410990466)
 
 Neha (2410990472)
 
