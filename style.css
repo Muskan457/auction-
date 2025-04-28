@@ -102,17 +102,16 @@ span{
 }
 
 
-.maintext{
-    width: 95%;
-    height: 91vh;
-    background-color: black;
-    position: static;
-    top: 8%;
-    margin: 2rem auto;
+.maintext {
+    width: 90%;
+    height: 90vh;
+    background: #000;
+    margin: 3rem auto 0;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
+
 
 
 .leftside{
