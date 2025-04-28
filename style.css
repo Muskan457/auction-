@@ -115,16 +115,18 @@ span{
 
 
 .leftPanel {
-    width: 50%;
-    height: auto;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    width: 60%; /* Increased width to 60% */
+    height: 100%; /* Set height to 100% of the parent container */
+    background: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background */
     display: flex;
-    align-items: flex-start; /* Align items to the top */
-    flex-direction: row; /* Changed to row for horizontal layout */
-    justify-content: center; /* Center items evenly */
-    color: #f0f0f0; /* Updated to a lighter white shade */
-    padding: 2rem; /* Increased padding for more spacing */
-    font-family: 'Roboto', sans-serif; /* Switched to a different font */
+    align-items: center; /* Center items vertically */
+    flex-direction: column; /* Changed to column for vertical layout */
+    justify-content: flex-start; /* Align items to the top */
+    color: #e0e0e0; /* Lighter gray color */
+    padding: 3rem; /* Increased padding for more spacious content */
+    font-family: 'Arial', sans-serif; /* Switched to Arial font */
+}
+
 }
 
 .first{
