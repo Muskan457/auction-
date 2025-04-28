@@ -13,7 +13,7 @@ Maninder Kaur (2410990437)
                
 AUCTION - PAGE
 
-An auction page is a platform that allows users to buy and sell items through bidding. It provides a dynamic environment where buyers compete by placing bids, and the item is sold to the highest bidder when the auction ends. Key elements of an auction page include features like real-time updates, secure transactions, and detailed item descriptions to ensure a seamless experience for both buyers and sellers.
+An auction page is a platform that allows users to buy and sell items through bidding. It provides a dynamic environment where buyers compete by placing bids, and the item is sold to the highest bidder when the auction ends. Key elements of an auction page include features like real-time updates, secure transaction, and detailed item descriptions to ensure a seamless experience for both buyers and sellers.
 
 Our auction page have important features like :
 - User Authentication: To ensure secure access for participants.
