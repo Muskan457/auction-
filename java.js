@@ -29,8 +29,8 @@ document.querySelector('#login').addEventListener('click', () => {
 }
 
 
-window.onscroll = () => {
+window.addEventListener('scroll', () => {
     search.classList.remove('active');
     favorite.classList.remove('active');
     login.classList.remove('active');
-};
+});
