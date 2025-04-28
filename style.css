@@ -84,7 +84,7 @@ span{
     background: radial-gradient(
         circle farthest-corner at center center,
         #E79EA7 50%,
-        #90C6B9 50%
+        #90C6B9 60%
     );
     font-weight: bolder;
     -webkit-background-clip: text;
