@@ -18,12 +18,12 @@ document.querySelector('#favorites').onclick = () => {
 }
 
 
-let login=document.querySelector('.login');
+let loginButton = document.querySelector('.login-button');
 
-document.querySelector('#login').addEventListener('click', () => {
-    login.classList.toggle('show');
-    search.classList.remove('active');
-    favorites.classList.add('inactive');
+document.querySelector('#login-btn').addEventListener('click', () => {
+    loginButton.classList.toggle('visible');
+    searchSection.classList.add('inactive');
+    favoritesList.classList.remove('highlighted');
 });
 
 }
