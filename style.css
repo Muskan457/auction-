@@ -115,7 +115,7 @@ span{
 
 
 .leftPanel {
-    width: 60%; /* Increased width to 60% */
+    width: 65%; /* Increased width to 60% */
     height: 100%; /* Set height to 100% of the parent container */
     background: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background */
     display: flex;
