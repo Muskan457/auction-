@@ -83,7 +83,7 @@ overflow: clip;
 span{
     background: radial-gradient(
         circle farthest-corner at center center,
-        #E79EA7 50%,
+        #E79EA7 56%,
         #90C6B9 60%
     );
     font-weight: bolder;
