@@ -1,41 +1,32 @@
 let search=document.querySelector('.searchbar');
 
-document.querySelector('#search').addEventListener('click', () => {
+document.querySelector('#search').onclick = () => {
     search.classList.toggle('active');
-    favorites.classList.toggle('hidden');
-    login.classList.remove('visible');
-});
-
+    favorite.classList.remove('active');
+    login.classList.remove('active');
 }
 
 
-let favorite = document.querySelector('.favorites');
-let search = document.querySelector('.search'); // Assuming this element exists
-let login = document.querySelector('.login'); // Assuming this element exists
+let favorite=document.querySelector('.favorite');
 
-document.querySelector('#favorites').onclick = () => {
+document.querySelector('#favorite').onclick = () => {
     favorite.classList.toggle('active');
     search.classList.remove('active');
     login.classList.remove('active');
-    // Adding a console log to confirm the action
-    console.log('Favorites toggled');
 }
 
 
+let login=document.querySelector('.login');
 
-let loginButton = document.querySelector('.login-button');
-
-document.querySelector('#login-btn').addEventListener('click', () => {
-    loginButton.classList.toggle('visible');
-    searchSection.classList.add('inactive');
-    favoritesList.classList.remove('highlighted');
-});
-
+document.querySelector('#login').onclick = () => {
+    login.classList.toggle('active');
+    search.classList.remove('active');
+    favorite.classList.remove('active');
 }
 
 
-window.addEventListener('scroll', () => {
+window.onscroll = () => {
     search.classList.remove('active');
     favorite.classList.remove('active');
     login.classList.remove('active');
-});
+};
